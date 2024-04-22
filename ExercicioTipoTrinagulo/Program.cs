@@ -24,7 +24,7 @@ if (l1 < (l2 + l3) && l2 < (l1 + l3) && l3 < (l1 + l2))
         Console.WriteLine("O triangulo é Equilatero");
     }else if ((l1 == l2 && l1 != l3) || l2 == l3 && l2 != l1){
         Console.WriteLine("O Triangulo é Isoceles");
-    } else if (l1 != l2 && l1 != l3 && l2 != l3 && l3 != l1)
+    }else 
     {
         Console.WriteLine("O triangulo é Escaleno");
     }
